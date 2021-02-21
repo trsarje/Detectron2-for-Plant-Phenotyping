@@ -6,14 +6,13 @@ This project is aimed to monitor the phenotypic traits of a plant to observe the
 ## Data
 
 * The data was collected at Dr. Lobaton's ARoS lab for Soyabean plant. Following are few samples of the images used.  
-![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/pic_2019-12-13_11_08_35_773830_002361.jpg "1")
-![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/pic_2020-02-13T12_00_16_506Z_000427.jpg "2")
-![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/pic_2020-03-04T12_00_26_091Z_000118.jpg "3")
+![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/sample.png "1")
 
 * The images were annotated using [VGG annotator](https://www.robots.ox.ac.uk/~vgg/software/via/) in JSON format. 
 * The annotations were lables in three categories of "Leaf", "Early_leaf"and "Stem". 
 
-![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/anno1.png "1")
-![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/anno2.png "1")
-![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/anno3.png "1")
+![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/Annotation.png "1")
 
+## Results
+
+![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/Result.png "1")
