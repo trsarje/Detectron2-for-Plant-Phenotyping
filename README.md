@@ -18,5 +18,14 @@ This project is aimed to monitor the phenotypic traits of a plant to observe the
 
 
 ## Results
+* The model was trained at different fraction of train data. 
+* Final best model results are shown in the following images. 
+
+| No Img to train | Back Bone | Iteration | Box AP@0.5 | Segnemt AP@0.5 |
+| --------------- | --------- | --------- | ---------- | -------------- |
+| 475             | ResNet 50 | 500       | 42.03      | 39.71          |
+| 475             | ResNet 50 | 1000      | 55.61      | 54.52          |
+| 380             | ResNet 50 | 500       | 43.86      | 41.26          |
+| 380             | ResNet 50 | 1000      |53.31	     | 51.87          |
 
 ![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/Result.png "1")
