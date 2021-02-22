@@ -10,8 +10,12 @@ This project is aimed to monitor the phenotypic traits of a plant to observe the
 
 * The images were annotated using [VGG annotator](https://www.robots.ox.ac.uk/~vgg/software/via/) in JSON format. 
 * The annotations were lables in three categories of "Leaf", "Early_leaf"and "Stem". 
+* The JSON annotation were converted in COCO format, suitable for Detectron2 input pipeline. 
 
 ![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/Annotation.png "1")
+
+## Model
+
 
 ## Results
 
