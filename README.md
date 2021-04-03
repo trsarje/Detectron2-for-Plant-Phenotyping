@@ -15,7 +15,7 @@ This project is aimed to monitor the phenotypic traits of a plant to observe the
 ![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/Annotation.png "1")
 
 ## Model
-
+The model used Masked RCNN with ResNet50 backbone. 
 
 ## Results
 * The model was trained at different fraction of train data. 
