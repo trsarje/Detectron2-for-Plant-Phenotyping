@@ -15,7 +15,7 @@ This project is aimed to monitor the phenotypic traits of a plant to observe the
 ![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/Annotation.png "1")
 
 ## Model
-The model used Masked RCNN with ResNet50 backbone. 
+Detectron2 has different frameworks implemented such as Faster RCNN, Mask RCNN, SSD for variour tasks such as object detection, segmantation, keypoint detection. Out of these options, I used Mask RCNN for the instance segmentation. The framework has different back bones available such as VGG, ResNet50, ResNet101. I used ResNet50 for the final model. 
 
 ## Results
 * The model was trained at different fraction of train data. 
@@ -26,6 +26,6 @@ The model used Masked RCNN with ResNet50 backbone.
 | 475             | ResNet 50 | 500       | 42.03      | 39.71          |
 | 475             | ResNet 50 | 1000      | 55.61      | 54.52          |
 | 380             | ResNet 50 | 500       | 43.86      | 41.26          |
-| 380             | ResNet 50 | 1000      |53.31	     | 51.87          |
+| 380             | ResNet 50 | 1000      | 53.31	     | 51.87          |
 
 ![Sample Image](https://github.com/trsarje/Detectron2-for-Plant-Phenotyping/blob/master/result/Result.png "1")
